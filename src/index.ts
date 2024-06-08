@@ -1,8 +1,8 @@
-import express from "express";
 import { config } from "dotenv";
+import express from "express";
 import { GetUsersController } from "./controllers/get-users/get-users";
-import { MongoGetUsersRepository } from "./repositories/mongo-get-users";
 import { MongoClient } from "./database/mongo";
+import { MongoGetUsersRepository } from "./repositories/get-users/mongo-get-users";
 
 
 
